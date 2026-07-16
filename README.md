@@ -1,21 +1,5 @@
 # claude_reward_loop_optimization
 claudeを用いたコーディングの質・精度を向上させるスキル
-
----
-name: code-reward-loop
-description: >
-  Reward-maximization self-evaluation + ensemble LLM-as-a-judge loop for iteratively
-  improving code generation accuracy: explicit reward function (test execution +
-  GPTScore-style multi-aspect rubric), candidate generation with refine-to-maximize-reward,
-  a 5-strategy SE-Jury-style judge ensemble with dynamic team selection and bias mitigation,
-  and persistent lessons for self-improvement. Use this skill whenever the user asks for
-  high-accuracy or production-quality code generation, self-evaluation or self-refinement
-  loops, reward functions or reward maximization for LLM outputs, LLM-as-a-judge evaluation,
-  automatic code review/scoring, or self-improving generation — including Japanese requests
-  such as 報酬最大化, 自己評価, 自己改善, 高精度な回答, コード生成の精度向上, LLM-as-a-judge,
-  ジャッジ評価, 自動評価, 自己批判ループ. Use it even when the user just wants "really
-  reliable code", because the loop catches bugs single-pass generation misses.
----
  
 # Code Reward Loop — 報酬最大化 × 自己評価 × LLM-as-a-Judge
  
